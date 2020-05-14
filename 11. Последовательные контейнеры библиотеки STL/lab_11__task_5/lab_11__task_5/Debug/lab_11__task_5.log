@@ -1,0 +1,23 @@
+﻿  Main.cpp
+D:\Учеба\09.03.04\Семестр 2\Информатика, Основы алгоритмизации и программирования (Полякова О. А.)\Лаб. раб\ОАиП\lab_11\lab_11__task_5\lab_11__task_5\Vector.h(142,19): warning C4018: '<': signed/unsigned mismatch
+D:\Учеба\09.03.04\Семестр 2\Информатика, Основы алгоритмизации и программирования (Полякова О. А.)\Лаб. раб\ОАиП\lab_11\lab_11__task_5\lab_11__task_5\Vector.h(132): message : while compiling class template member function 'void Vector<Time>::print(void) const'
+D:\Учеба\09.03.04\Семестр 2\Информатика, Основы алгоритмизации и программирования (Полякова О. А.)\Лаб. раб\ОАиП\lab_11\lab_11__task_5\lab_11__task_5\Main.cpp(16): message : see reference to function template instantiation 'void Vector<Time>::print(void) const' being compiled
+D:\Учеба\09.03.04\Семестр 2\Информатика, Основы алгоритмизации и программирования (Полякова О. А.)\Лаб. раб\ОАиП\lab_11\lab_11__task_5\lab_11__task_5\Main.cpp(15): message : see reference to class template instantiation 'Vector<Time>' being compiled
+D:\Учеба\09.03.04\Семестр 2\Информатика, Основы алгоритмизации и программирования (Полякова О. А.)\Лаб. раб\ОАиП\lab_11\lab_11__task_5\lab_11__task_5\Vector.h(27,19): warning C4018: '<': signed/unsigned mismatch
+D:\Учеба\09.03.04\Семестр 2\Информатика, Основы алгоритмизации и программирования (Полякова О. А.)\Лаб. раб\ОАиП\lab_11\lab_11__task_5\lab_11__task_5\Vector.h(166): message : see reference to function template instantiation 'std::priority_queue<T,std::vector<T,std::allocator<T>>,std::less<_Ty>> copyVectorToQueue<T>(std::vector<_Ty,std::allocator<_Ty>>)' being compiled
+          with
+          [
+              T=Time,
+              _Ty=Time
+          ]
+D:\Учеба\09.03.04\Семестр 2\Информатика, Основы алгоритмизации и программирования (Полякова О. А.)\Лаб. раб\ОАиП\lab_11\lab_11__task_5\lab_11__task_5\Vector.h(159): message : while compiling class template member function 'void Vector<Time>::removeElement(const T &)'
+          with
+          [
+              T=Time
+          ]
+D:\Учеба\09.03.04\Семестр 2\Информатика, Основы алгоритмизации и программирования (Полякова О. А.)\Лаб. раб\ОАиП\lab_11\lab_11__task_5\lab_11__task_5\Main.cpp(22): message : see reference to function template instantiation 'void Vector<Time>::removeElement(const T &)' being compiled
+          with
+          [
+              T=Time
+          ]
+  lab_11__task_5.vcxproj -> D:\Учеба\09.03.04\Семестр 2\Информатика, Основы алгоритмизации и программирования (Полякова О. А.)\Лаб. раб\ОАиП\lab_11\lab_11__task_5\Debug\lab_11__task_5.exe
