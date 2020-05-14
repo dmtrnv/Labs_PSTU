@@ -1,0 +1,41 @@
+﻿  Main.cpp
+D:\Учеба\09.03.04\Семестр 2\Информатика, Основы алгоритмизации и программирования (Полякова О. А.)\Лаб. раб\ОАиП\lab_11\lab_11__task_3\lab_11__task_3\Vector.h(129,19): warning C4018: '<': signed/unsigned mismatch
+D:\Учеба\09.03.04\Семестр 2\Информатика, Основы алгоритмизации и программирования (Полякова О. А.)\Лаб. раб\ОАиП\lab_11\lab_11__task_3\lab_11__task_3\Vector.h(121): message : while compiling class template member function 'void Vector<Time>::print(void) const'
+D:\Учеба\09.03.04\Семестр 2\Информатика, Основы алгоритмизации и программирования (Полякова О. А.)\Лаб. раб\ОАиП\lab_11\lab_11__task_3\lab_11__task_3\Main.cpp(16): message : see reference to function template instantiation 'void Vector<Time>::print(void) const' being compiled
+D:\Учеба\09.03.04\Семестр 2\Информатика, Основы алгоритмизации и программирования (Полякова О. А.)\Лаб. раб\ОАиП\lab_11\lab_11__task_3\lab_11__task_3\Main.cpp(15): message : see reference to class template instantiation 'Vector<Time>' being compiled
+D:\Учеба\09.03.04\Семестр 2\Информатика, Основы алгоритмизации и программирования (Полякова О. А.)\Лаб. раб\ОАиП\lab_11\lab_11__task_3\lab_11__task_3\Vector.h(138,21): warning C4018: '>': signed/unsigned mismatch
+D:\Учеба\09.03.04\Семестр 2\Информатика, Основы алгоритмизации и программирования (Полякова О. А.)\Лаб. раб\ОАиП\lab_11\lab_11__task_3\lab_11__task_3\Vector.h(137): message : while compiling class template member function 'void Vector<Time>::addElementToPosition(const T &,const int &)'
+          with
+          [
+              T=Time
+          ]
+D:\Учеба\09.03.04\Семестр 2\Информатика, Основы алгоритмизации и программирования (Полякова О. А.)\Лаб. раб\ОАиП\lab_11\lab_11__task_3\lab_11__task_3\Main.cpp(20): message : see reference to function template instantiation 'void Vector<Time>::addElementToPosition(const T &,const int &)' being compiled
+          with
+          [
+              T=Time
+          ]
+D:\Учеба\09.03.04\Семестр 2\Информатика, Основы алгоритмизации и программирования (Полякова О. А.)\Лаб. раб\ОАиП\lab_11\lab_11__task_3\lab_11__task_3\Vector.h(176,19): warning C4018: '<': signed/unsigned mismatch
+D:\Учеба\09.03.04\Семестр 2\Информатика, Основы алгоритмизации и программирования (Полякова О. А.)\Лаб. раб\ОАиП\lab_11\lab_11__task_3\lab_11__task_3\Vector.h(166): message : while compiling class template member function 'void Vector<Time>::reduceElements(const T &)'
+          with
+          [
+              T=Time
+          ]
+D:\Учеба\09.03.04\Семестр 2\Информатика, Основы алгоритмизации и программирования (Полякова О. А.)\Лаб. раб\ОАиП\lab_11\lab_11__task_3\lab_11__task_3\Main.cpp(29): message : see reference to function template instantiation 'void Vector<Time>::reduceElements(const T &)' being compiled
+          with
+          [
+              T=Time
+          ]
+D:\Учеба\09.03.04\Семестр 2\Информатика, Основы алгоритмизации и программирования (Полякова О. А.)\Лаб. раб\ОАиП\lab_11\lab_11__task_3\lab_11__task_3\Vector.h(191,19): warning C4018: '<': signed/unsigned mismatch
+D:\Учеба\09.03.04\Семестр 2\Информатика, Основы алгоритмизации и программирования (Полякова О. А.)\Лаб. раб\ОАиП\lab_11\lab_11__task_3\lab_11__task_3\Vector.h(182): message : while compiling class template member function 'T Vector<T>::findDifference(void)'
+          with
+          [
+              T=Time
+          ]
+D:\Учеба\09.03.04\Семестр 2\Информатика, Основы алгоритмизации и программирования (Полякова О. А.)\Лаб. раб\ОАиП\lab_11\lab_11__task_3\lab_11__task_3\Main.cpp(28): message : see reference to function template instantiation 'T Vector<T>::findDifference(void)' being compiled
+          with
+          [
+              T=Time
+          ]
+  Time.cpp
+  Generating Code...
+  lab_11__task_3.vcxproj -> D:\Учеба\09.03.04\Семестр 2\Информатика, Основы алгоритмизации и программирования (Полякова О. А.)\Лаб. раб\ОАиП\lab_11\lab_11__task_3\Debug\lab_11__task_3.exe
