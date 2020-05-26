@@ -342,6 +342,7 @@ void SearchTree::deleteNode(const char *_data)
 	}
 
 	SearchTree *tree = this->findElement(_data);
+
 	if(tree == nullptr)
 	{
 		std::cerr << "Error: element not found (deleteNode()).\n";
@@ -356,10 +357,31 @@ void SearchTree::deleteNode(const char *_data)
 		std::strcpy(tree->data, next->data);
 		deleteNodeByPointer(next);
 	}
+
 	//если у узла один потомок
 	else if (tree->left != nullptr || tree->right != nullptr)
 	{
-		if(tree->left != nullptr)
+		//если узел является корнем дерева
+		if(tree->parent == nullptr)
+		{
+			if(tree->left != nullptr)
+			{
+				SearchTree *next = tree->left->findMax();
+			
+				std::strcpy(tree->data, next->data);
+				deleteNodeByPointer(next);
+			}
+			else
+			{
+				SearchTree *next = tree->right->findMin();
+			
+				std::strcpy(tree->data, next->data);
+				deleteNodeByPointer(next);
+			}
+		}
+
+		//если узел не является корнем дерева
+		else if(tree->left != nullptr)
 		{
 			if(tree->parent->right == tree)
 			{
@@ -407,12 +429,15 @@ void SearchTree::deleteNode(const char *_data)
 			tree->data = nullptr;
 			tree = nullptr;
 		}
-		else if(std::strcmp(tree->parent->left->data, tree->data) == 0)
+		else if(tree->parent->left != nullptr && tree->parent->left->data != nullptr)
 		{
-			delete [] tree->data;
-			tree->data = nullptr;
-			tree->parent->left = nullptr;
-			tree = nullptr;
+			if(std::strcmp(tree->parent->left->data, tree->data) == 0)
+			{
+				delete [] tree->data;
+				tree->data = nullptr;
+				tree->parent->left = nullptr;
+				tree = nullptr;
+			}
 		}
 		else if(std::strcmp(tree->parent->right->data, tree->data) == 0)
 		{
